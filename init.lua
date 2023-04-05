@@ -15,6 +15,8 @@ vim.keymap.set("t", "<F9>", "<cmd>Lspsaga term_toggle<CR>")
 vim.keymap.set("n", "<A-6>", "<cmd>Lspsaga term_toggle<CR>")
 vim.keymap.set("t", "<A-6>", "<cmd>Lspsaga term_toggle<CR>")
 
+vim.keymap.set("n", ",n", "<cmd>NvimTreeToggle<CR>")
+
 -- 窗口跳转
 vim.keymap.set("n", "<A-h>", "<c-w>h")
 vim.keymap.set("n", "<A-l>", "<c-w>l")
