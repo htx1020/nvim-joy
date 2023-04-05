@@ -141,6 +141,7 @@ return {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
+        "c",
         "bash",
         "help",
         "html",
@@ -168,8 +169,8 @@ return {
     opts = function(_, opts)
       -- add tsx and treesitter
       vim.list_extend(opts.ensure_installed, {
-          "tsx",
-          "typescript",
+        "tsx",
+        "typescript",
       })
     end,
   },
@@ -209,6 +210,7 @@ return {
         "shellcheck",
         "shfmt",
         "flake8",
+        "clangd",
       },
     },
   },
